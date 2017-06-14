@@ -1,0 +1,125 @@
+body {
+  background-color: azure;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  height: auto;
+  width: 100%
+}
+
+.page-container {
+  display: block;
+  margin: 0 auto;
+  height: auto;
+  width: 50%;
+  min-width: 640px;
+}
+
+.header {
+  background-image: url("https://www.roughguides.com/wp-content/uploads/2016/03/slovenia-456045-660x420.jpg");
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+}
+
+#header-text {
+  text-align: center;
+  color: #e6e6fa;
+  position: relative;
+  font-family: 'Belgrano' serif;
+  font-style: italic;
+  font-size: 24px;
+  text-transform: uppercase;
+  margin: 0 auto;
+  top: 25%;
+}
+
+.caption {
+  color: #000;
+  font-family: 'Cabin' sans-serif;
+  font-size: 32px;
+  width: 100%;
+}
+
+.content {
+  font-family: 'Roboto', sans-serif;
+  font-size: 26px;
+  text-indent: 24px;
+  position: relative;
+  display: block;
+  top: 80%;
+  width: 100%;
+}
+
+.image {
+  height: auto;
+  width: 100%;
+  background-size: cover;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: #0000ff;
+}
+
+.four-images-container {
+  display: block;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  height: auto;
+  width: 100%;
+}
+
+.four-images-overlay {
+  background-color: brown;
+  border-radius: 12px;
+  border: 2px solid white;
+  color: white;
+  position: absolute;
+  text-align: center;
+  left: calc(50% - 100px);
+  top: calc(50% - 50px);
+  height: 100px;
+  width: 200px;
+  z-index: 2;
+}
+
+.image-a {
+  display: inline-block;
+  position: relative;
+  margin: 5px;
+  height: auto;
+  width: calc(50% - 12px);
+}
+
+#button {
+  background-color: #000;
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,125 +1,105 @@
-body {
-  background-color: azure;
-  margin: 0;
-  padding: 0;
-  position: relative;
-  height: auto;
+html, body {
+  font-size: 12px;
+	height: 100%;
   width: 100%
 }
 
-.page-container {
-  display: block;
-  margin: 0 auto;
-  height: auto;
-  width: 50%;
-  min-width: 640px;
-}
-
-.header {
-  background-image: url("https://www.roughguides.com/wp-content/uploads/2016/03/slovenia-456045-660x420.jpg");
-  background-size: cover;
-  height: 300px;
+.container {
+  height: 100%;
   width: 100%;
-}
-
-#header-text {
-  text-align: center;
-  color: #e6e6fa;
   position: relative;
-  font-family: 'Belgrano' serif;
-  font-style: italic;
-  font-size: 24px;
-  text-transform: uppercase;
-  margin: 0 auto;
-  top: 25%;
 }
 
-.caption {
-  color: #000;
-  font-family: 'Cabin' sans-serif;
-  font-size: 32px;
-  width: 100%;
-}
-
-.content {
-  font-family: 'Roboto', sans-serif;
-  font-size: 26px;
-  text-indent: 24px;
-  position: relative;
-  display: block;
-  top: 80%;
-  width: 100%;
-}
-
-.image {
-  height: auto;
-  width: 100%;
-  background-size: cover;
-  text-decoration: none;
-}
-
-a {
-  text-decoration: none;
-  color: #0000ff;
-}
-
-.four-images-container {
-  display: block;
-  position: relative;
-  margin: 0;
-  padding: 0;
-  height: auto;
-  width: 100%;
-}
-
-.four-images-overlay {
-  background-color: brown;
-  border-radius: 12px;
-  border: 2px solid white;
-  color: white;
+.calculator-body {
+  display: inline-block;
+  height: 296px;
+  width: 252px;
+  padding: 0 6px;
   position: absolute;
-  text-align: center;
-  left: calc(50% - 100px);
-  top: calc(50% - 50px);
-  height: 100px;
-  width: 200px;
-  z-index: 2;
+  left: calc(50% - 126px);
+  top: calc(50% - 166px);
+  background-color: lightgrey;
+  border: 1px solid grey;
 }
 
-.image-a {
+.input-block {
+  display: block;
+  width: 100%;
+  height: 52px;
+}
+
+.calculator-input {
+  width: calc(100% - 12px);
+  height: 34px;
+  margin: 6px 0;
+  border: 1px solid black;
+  font-size: 18px;
+  text-align: right;
+  padding: 4px;
+  font-weight: 600;
+}
+
+.buttons-block {
+  margin: 6px 0;
+  width: 100%;
+  height: 240px;
   display: inline-block;
   position: relative;
-  margin: 5px;
-  height: auto;
-  width: calc(50% - 12px);
 }
 
-#button {
-  background-color: #000;
-  color: #fff;
+.buttons-top {
+  width: 100%;
+  height: 48px;
+  display: block;
 }
 
+.buttons-right {
+  width: 96px;
+  height: 192px;
+  float: right;
+  position: relative;
+  display: inline-block;
+}
 
+.buttons-left {
+  width: 144px;
+  height: 192px;
+  float: left;
+  position: relative;
+  display: inline-block;
+}
 
+.button {
+  border: 1px solid grey;
+  border-radius: 4px;
+  background-color: lightgrey;
+  height: 44px;
+  width: 44px;
+  margin: 1px;
+  display: inline-block;
+  position: relative;
+}
 
+.button-equal {
+  height: 88px;
+  width: 94px;
+  background-color: pink;
+}
 
+.button-zero {
+  height: 44px;
+  width: 93px;
+}
 
+.buttons-top .button {
+  width: calc(25% - 4.5px);
+}
 
+.buttons-top .button:first-child {
+  margin-left: 1;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.buttons-top .button:last-child {
+  margin-right: 0;
+}
 
